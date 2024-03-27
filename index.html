@@ -76,7 +76,7 @@
 
       
 
-        <button type="button" class=" btn" onclick="reset()"> Reset</button>
+        <button type="button" class=" btn" onclick="reset1()"> Reset</button>
     </div>
 
 
@@ -92,7 +92,7 @@
 
         <button type="button" class=" btn-1" onclick="Areaofrectangle()"> Area Of Rectangle</button>
 
-        <button type="button" class=" btn-1" onclick="reset()"> Reset</button>
+        <button type="button" class=" btn-1" onclick="reset2()"> Reset</button>
     </div>
 
 
@@ -111,12 +111,18 @@
         ansElement.innerText = `Answer: ${addition}` ;
      }
 
-     function reset()
+     function reset1()
      {
         // Addition
         document.getElementById('num1').value='';
         document.getElementById('num2').value='';
         document.getElementById('ans').innerHTML= 'Answer:'
+
+       
+     }
+
+     function reset2()
+     {
 
         //Area Of Rectangle
         document.getElementById('Length').value='';
